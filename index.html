@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Title-->
+        <title>3D Female Model</title>
+
+        <!-- Import the CSS -->
+        <link rel="stylesheet" href="./style.css" />
+
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+        <style>
+            model-viewer{
+                width: 1280px;
+                height: 800px;
+                margin: 0 auto;
+            }
+        </style>
+    </head>
+<body bgcolor="skyblue">
+<div class="scene"></div>
+
+<!-- GLTF loader in the asset folder -->
+<model-viewer src="./assets/3dMaleModel.gltf" camera-controls auto-rotate></model-viewer>
+</body>
+</html>

@@ -5,7 +5,7 @@ A short script of a 3d model on a web browser using model viewer.
 
 Import the Model Viewer - Source: [Model Viewer.dev](https://modelviewer.dev/)
 ```html
-  <!-- Import WebGL Model Viewer Component -->
+        <!-- Import WebGL Model Viewer Component -->
         <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
         <style>
             model-viewer{
